@@ -1,0 +1,31 @@
+site_name: "Qualidade de Software - T02 - Dorothy Johnson"
+site_url: "https://fcte-qualidade-de-software-1.github.io/2025-1-T02-DOROTHY-JOHNSON/"
+repo_url: "https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T02-DOROTHY-JOHNSON"
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:
+  - Home: index.md
