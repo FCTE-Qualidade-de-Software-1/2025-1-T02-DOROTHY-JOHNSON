@@ -75,6 +75,20 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ---
 
+![Diagrama de Objetivo 1](../assets/Diagrama_Objetivo1.PNG)
+#### Métricas para Objetivo 1
+###### M1: Grau de acoplamento
+###### M2: Padrões arquiteturais
+###### M3: Facilidade de extensão
+###### M4: Cobertura da documentação
+###### M5: Atualização da documentação
+###### M6: Cobertura de testes
+###### M7: Testes quebrados após mudanças
+###### M8: Tempo p/ detectar falhas
+###### M9: Complexidade ciclomática
+###### M10: Comentários por função
+###### M11: Tempo p/ entender módulo
+
 ## Objetivo de Medição 2
 
 | Elemento                 | Descrição                                              |
@@ -137,6 +151,15 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ---
 
+![Diagrama de Objetivo 2](../assets/Diagrama_Objetivo2.PNG)
+#### Métricas para Objetivo 2
+###### M12: Taxa de sucesso nas tarefas
+###### M13: Cliques até compra
+###### M14: Tempo médio de compra
+###### M15: Satisfação média
+###### M16: Tempo de resposta percebido
+###### M17: Taxa de desistência
+
 ## Tabela de Contribuição
 
 | Matrícula | Nome completo              | Contribuição (%) |
@@ -151,4 +174,6 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
-| 1.0    | 26/05/2025 | [Cássio Reis](https://github.com/csreis72) | Criação do documento | -       |
+| 1.0    | 26/05/2025 | [Cássio Reis](https://github.com/csreis72) | Criação do documento | [Daniel Coimbra](https://github.com/DanielCoimbra)       |
+| 1.1    | 26/05/2025 | [Daniel Coimbra](https://github.com/DanielCoimbra) | Adição dos diagramas de Objetivo| -       |
+
