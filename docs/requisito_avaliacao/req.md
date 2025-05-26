@@ -84,3 +84,20 @@ O **AgroMart** alinha-se a diversos ODS da Agenda 2030 da ONU:
 ## Links
 
 - [Repositório no GitHub - AgroMart](https://github.com/AgroMart)
+
+
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
+## Histórico de Versão
+
+| Versão | Data       | Autor                                      | Descrição            | Revisor |
+| ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
+| 1.0    | 26/05/2025 | [Philipe Sousa](https://github.com/PhilipeSousa) | Criação do documento | -       |
