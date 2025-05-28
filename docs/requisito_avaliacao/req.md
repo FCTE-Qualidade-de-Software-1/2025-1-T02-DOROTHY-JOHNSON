@@ -4,7 +4,11 @@
 
 **Software a ser analisado:** AgroMart - Mobile
 
+O AgroMart é um software desenvolvido na UnB-FCTE (Universidade de Brasília - Faculdade de Ciências e Tecnologias em Engenharia) que inclui uma aplicação web para agricultores e um aplicativo móvel multiplataforma para consumidores. Nesta avaliação, o foco será no aplicativo móvel do AgroMart, que permite aos consumidores acessar, selecionar e adquirir cestas agroecológicas por meio de comunidades de agricultura sustentável (CSA).
+
 ### Características principais da análise:
+
+A avaliação será feita com base nos modelos de qualidade definidos pela ISO/IEC 25010, que trazem características importantes para medir como um software atende às necessidades dos usuários e às exigências técnicas.
 
 - **Manutenibilidade**: Facilidade e efetividade de custo para modificar, atualizar, consertar ou aperfeiçoar o software após sua entrega.  
   **Ênfase:** 5
@@ -61,30 +65,9 @@ O **AgroMart** alinha-se a diversos ODS da Agenda 2030 da ONU:
 
 ---
 
-## 4. Requisitos de Avaliação
-
-- **Nome do produto:** AgroMart  
-- **Versão do produto:** _?_
-
-### Perguntas:
-
-- Qual é o domínio da aplicação do produto?  
-- Qual é seu objetivo em relação à avaliação?
-  - Assegurar a qualidade do produto
-  - Indicar pontos para melhoria no produto
-  - Adequar o produto às normas de qualidade para produto de software
-  - Comparar com outros produtos similares
-  - Obter um laudo técnico da sua qualidade
-  - Classificar e premiar um conjunto de produtos de software
-  - Pré-qualificar produtos de software numa licitação
-  - Outros. Quais? Resp.: ____________
-
----
-
 ## Links
 
 - [Repositório no GitHub - AgroMart](https://github.com/AgroMart)
-
 
 ## Tabela de Contribuição
 
@@ -98,6 +81,7 @@ O **AgroMart** alinha-se a diversos ODS da Agenda 2030 da ONU:
 
 ## Histórico de Versão
 
-| Versão | Data       | Autor                                      | Descrição            | Revisor |
-| ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
-| 1.0    | 26/05/2025 | [Philipe Sousa](https://github.com/PhilipeSousa) | Criação do documento | -       |
+| Versão | Data       | Autor                                            | Descrição                                                               | Revisor     |
+| ------ | ---------- | ------------------------------------------------ | ----------------------------------------------------------------------- | ----------- |
+| 1.0    | 26/05/2025 | [Philipe Sousa](https://github.com/PhilipeSousa) | Criação do documento                                                    | Cássio Reis |
+| 1.1    | 28/05/2025 | [Cássio Reis](https://github.com/csreis72)       | Adição de informações sobre o software e modelo de qualidade escolhidos | -           |

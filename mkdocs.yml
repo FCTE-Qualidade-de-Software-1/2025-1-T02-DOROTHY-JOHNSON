@@ -29,6 +29,6 @@ theme:
 
 nav:
   - Home: index.md
+  - Requisitos de Avalição: requisito_avaliacao/req.md
   - GQM: 
     - Definição: gqm/definition.md
-  - Requisitos de Avalição: requisito_avaliacao/req.md
