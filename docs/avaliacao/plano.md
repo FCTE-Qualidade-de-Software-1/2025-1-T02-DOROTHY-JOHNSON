@@ -26,10 +26,33 @@ Avaliar o software AgroMart com base nas características de qualidade usando o 
 ## Guia do avaliador
 
 - Parte 1 - Avaliação da usabilidade (com usuários)
-  - Preparação:
-    - Configure o ambiente de teste do AgroMart
-    - Indique a funcionalidade que deseja que o usuário tente realiza
-    - Tenha um cronômetro e folha de registro por avaliador
+    - Preparação:
+        - Configure o ambiente de teste do AgroMart
+        - Indique a funcionalidade que deseja que o usuário tente realiza
+        - Tenha um cronômetro e folha de registro por avaliador
+    - Executar as tarefas executadas:
+        - Definir as funcionalidades que cada usuário vai realizar e colocar em prática
+    - Durante a execução das tarefas:
+        - Cronometre o tempo por tarefa
+        - Anote os erros cometidos
+        - Observe comentários espontâneos do usuário, e anote aquilo que achar relevante
+        - Não interfira se não for solicitadoo pelo usuário
+    - Pós uso:
+        - Implementar o questionário de satisfação com uma escala de 1 (discordo totalmente) a 5 (concordo totalmente)
+        - O sistema foi de fácil navegação?
+        - Encontrei o que eu proucurava sem dificuldade?
+        - A interface te deixou confortável para utilizar o sistema?
+        - Sentiria confortável em utilizar esse sistema com frequência?
+- Parte 2 - Avaliação da Manutenibilidade (com desenvolvedores)
+    - Revisão de código:
+        - Escolha um módulo real
+        - Olhar o lançamento de funcionalidade e analisar o tempo para abrirem commits de *fixup* ou *refactor*, identificando a detecção de erro e lançamento dessas funcionalidades para ver o tempo de corrigir esses erros.
+    - Checklists de boas práticas:
+        - O código possui nomes descritivos para classes, variáveis e funções?
+        - Existe documentação mínima no código?
+        - O código está dividido em funções/módulos reutilizáveis?
+        - Há testes automatizados?
+        - O código tem dependências fortemente acopladas?
 
 ## Recursos
 
