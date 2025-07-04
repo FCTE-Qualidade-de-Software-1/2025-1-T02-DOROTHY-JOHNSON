@@ -32,3 +32,12 @@ nav:
   - Requisitos de Avalição: requisito_avaliacao/req.md
   - GQM: 
     - Definição: gqm/definition.md
+  - Avalição:
+    - Planejamento: avaliacao/plano.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
