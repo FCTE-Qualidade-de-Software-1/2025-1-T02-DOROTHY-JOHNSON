@@ -41,6 +41,8 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
         <li>Grau de acoplamento entre módulos</li>
         <li>Cobertura da documentação</li>
         <li>Complexidade ciclomática</li>
+        <li>Esforço para entender módulo</li>
+        <li>Densidade de duplicação de código</li>
       </ul>
     </td>
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -57,17 +59,26 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
       <strong>Hipótese de Baseline</strong>
       <ul style="margin-top: 5px;">
         <li>Cobertura de testes moderada a boa (entre 50% e 70%)</li>
-        <li>Baixo a médio acoplamento</li>
+        <li>
+          Baixo a médio acoplamento - entre 70% e 90% dos módulos possuem
+          <ul>
+            <li>AC (Afferent Coupling) entre 3 e 7 módulos/componentes que dependem deste módulo</li>
+            <li>EC (Efferent Coupling) entre 3 e 7 módulos/componentes dos quais este módulo depende</li>
+            <li>I (Instability) entre 0,2 e 0,6, garantindo equilíbrio entre estabilidade e flexibilidade</li>
+          </ul>
+        </li>
         <li>Documentação cobre aspectos principais (como instalação e uso)</li>
         <li>Complexidade ciclomática média em nível aceitável (5–10 por função)</li>
+        <li>Complexidade cognitiva abaixo de 15 por módulo</li>
+        <li>Densidade de duplicação abaixo de 5%</li>
       </ul>
     </td>
     <td style="padding: 10px; vertical-align: top; border: 1px solid #ccc;">
       <strong>Impacto dos Fatores de Variação</strong>
       <ul style="margin-top: 5px;">
-        <li><em>Pressão por prazos de entrega:</em> menor cobertura de testes, maior acoplamento entre módulos, documentação técnica deficiente</li>
-        <li><em>Ausência de padrões:</em> maior acoplamento e menor cobertura de testes</li>
-        <li><em>Comunicação informal:</em> acoplamento elevado e documentação técnica incompleta</li>
+        <li><em>Pressão por prazos de entrega:</em> menor cobertura de testes, maior acoplamento entre módulos, documentação técnica deficiente, aumento da duplicação de código e da complexidade cognitiva</li>
+        <li><em>Ausência de padrões:</em> maior acoplamento, menor cobertura de testes, maior duplicação de código e lógica redundante</li>
+        <li><em>Comunicação informal:</em> acoplamento elevado, documentação técnica incompleta, decisões de implementação inconsistentes e maior complexidade cognitiva</li>
       </ul>
     </td>
   </tr>
@@ -75,19 +86,23 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ---
 
-![Diagrama de Objetivo 1](../assets/Diagrama_Objetivo1.PNG)
+![Diagrama de Objetivo 1](../assets/Diagrama_Objetivo1v2.png)
+
 #### Métricas para Objetivo 1
+
 ###### M1: Grau de acoplamento
-###### M2: Padrões arquiteturais
-###### M3: Facilidade de extensão
-###### M4: Cobertura da documentação
-###### M5: Atualização da documentação
-###### M6: Cobertura de testes
-###### M7: Testes quebrados após mudanças
-###### M8: Tempo p/ detectar falhas
-###### M9: Complexidade ciclomática
-###### M10: Comentários por função
-###### M11: Tempo p/ entender módulo
+
+###### M2: Cobertura da documentação
+
+###### M3: Atualização da documentação
+
+###### M4: Cobertura de testes
+
+###### M5: Complexidade ciclomática
+
+###### M6: Duplicação de Código
+
+###### M7: Esforço para entender módulo
 
 ## Objetivo de Medição 2
 
@@ -151,14 +166,21 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ---
 
-![Diagrama de Objetivo 2](../assets/Diagrama_Objetivo2.PNG)
+![Diagrama de Objetivo 2](../assets/Diagrama_Objetivo2v2.png)
+
 #### Métricas para Objetivo 2
-###### M12: Taxa de sucesso nas tarefas
-###### M13: Cliques até compra
-###### M14: Tempo médio de compra
-###### M15: Satisfação média
-###### M16: Tempo de resposta percebido
-###### M17: Taxa de desistência
+
+###### M8: Taxa de sucesso nas tarefas
+
+###### M9: Cliques até compra
+
+###### M10: Tempo médio de compra
+
+###### M11: Satisfação média
+
+###### M12: Tempo de resposta percebido
+
+###### M13: Taxa de desistência
 
 ## Tabela de Contribuição
 
@@ -170,10 +192,33 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 | 221037803 | Letícia Kellen Ramos Paiva | 20%              |
 | 170154319 | Philipe de Sousa Barros    | 20%              |
 
+<details>
+  <summary><strong>Changelog v1.2 GQM (05/07/2025)</strong></summary>
+
+  <p>Algumas métricas de manutenibilidade inicialmente consideradas foram descartadas. Abaixo estão os principais motivos:</p>
+  <ul>
+    <li><strong>Facilidade de extensão</strong><br>
+      Métrica subjetiva e difícil de quantificar sem envolvimento direto dos desenvolvedores originais. Seria mais adequada em estudos observacionais ou entrevistas.
+    </li>
+    <li><strong>Testes quebrados após mudanças</strong><br>
+      Exige execução contínua de testes automatizados em múltiplos commits, o que não é possível sem histórico e pipeline ativo de CI.
+    </li>
+    <li><strong>Tempo para detectar falhas</strong><br>
+      Depende de logs históricos de bugs ou dados operacionais de produção, que não estão disponíveis para a equipe avaliadora.
+    </li>
+    <li><strong>Comentários por função</strong><br>
+      A presença de comentários nem sempre reflete qualidade ou clareza, podendo inclusive mascarar código mal estruturado. Além disso, é de baixa confiabilidade como métrica isolada.
+    </li>
+    <li><strong>Padrões arquiteturais</strong><br>
+      A avaliação de padrões arquiteturais exige análise qualitativa e conhecimento profundo do sistema e suas decisões de design, o que foge ao escopo da análise automatizada e objetiva.
+    </li>
+  </ul>
+</details>
+
 ## Histórico de Versão
 
-| Versão | Data       | Autor                                      | Descrição            | Revisor |
-| ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
-| 1.0    | 26/05/2025 | [Cássio Reis](https://github.com/csreis72) | Criação do documento | [Daniel Coimbra](https://github.com/DanielCoimbra)       |
-| 1.1    | 26/05/2025 | [Daniel Coimbra](https://github.com/DanielCoimbra) | Adição dos diagramas de Objetivo| -       |
-
+| Versão | Data       | Autor                                              | Descrição                                | Revisor                                            |
+| ------ | ---------- | -------------------------------------------------- | ---------------------------------------- | -------------------------------------------------- |
+| 1.0    | 26/05/2025 | [Cássio Reis](https://github.com/csreis72)         | Criação do documento                     | [Daniel Coimbra](https://github.com/DanielCoimbra) |
+| 1.1    | 26/05/2025 | [Daniel Coimbra](https://github.com/DanielCoimbra) | Adição dos diagramas de Objetivo         | -                                                  |
+| 1.2    | 05/07/2025 | [Cássio Reis](https://github.com/csreis72)         | Revisão das métricas de manutenibilidade | -                                                  |

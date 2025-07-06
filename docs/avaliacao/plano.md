@@ -10,24 +10,31 @@ Avaliar o software AgroMart com base nas características de qualidade usando o 
 
 | Característica       | Subcaracterística                                                             | Objetivo no AgroMart                                                                |
 | -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Usabilidade**      | Operacionalidade, Aprendizado, Estética, Acessibilidade                       | Garantir que o sistema seja intuitivo, claro e fácil de usar                        |
 | **Manutenibilidade** | Modularidade, Reusabilidade, Analisabilidade, Modificabilidade, Testabilidade | Avaliar a facilidade de localizar erros e fazer modificações no código ou interface |
+| **Usabilidade**      | Operacionalidade, Aprendizado, Estética, Acessibilidade                       | Garantir que o sistema seja intuitivo, claro e fácil de usar                        |
 
-- Métricas definidas:
+- Métricas definidas (Manutenibilidade):
+
+| Métrica                      | Como medir                                                                                                                                         |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Grau de acoplamento         | Análise estática do código (ex.: número de dependências entre módulos/classes/funções)                                                             |
+| Cobertura da documentação   | Verificar presença e completude de documentos essenciais (manuais, guias, etc.), comparando com uma lista de documentos esperados                 |
+| Atualização da documentação | Verificar se os documentos foram atualizados recentemente e se refletem a versão atual do código                                                  |
+| Cobertura de testes         | Percentual de código coberto por testes automatizados                                                                                              |
+| Complexidade ciclomática    | Cálculo da complexidade por meio de ferramentas como SonarQube                                                                                     |
+| Duplicação de Código        | Percentual ou número de blocos de código duplicados, identificado por ferramentas de análise estática como o SonarQube                            |
+| Esforço para entender módulo (Complexidade Cognitiva) | Medida do esforço mental necessário para compreender o código, considerando profundidade de aninhamento e desvios de fluxo. Usar ferramentas como SonarQube |
+
+- Métricas definidas (Usabilidade/Eficiência de Uso):
 
 | Métrica                                  | Tipo         | Como medir                                                                                                                                |
 | ---------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Tempo médio para completar tarefa        | Quantitativa | Cronometrar quanto tempo um colega demora para realizar tarefas comuns                                                                    |
 | Número de erros por tarefa               | Quantitativa | Quantidade de tentativas incorretas ou falhas                                                                                             |
-| Satisfação do usuário                    | Qualitativa  | Questionário com escala Likert (1 a 5) (aplicado ao colega que realizou as tarefas)                                                       |
-| Tempo para localizar/modificar módulo    | Quantitativa | Ver quando uma tarefa foi feita e quando ela foi refatorada, ou corrigida, pretendemos verificar isso por meio das linguagens dos commits |
-| Facilidade de leitura do código          | Qualitativa  | Checklist técnico: nomes, comentários, organização                                                                                        |
-| Cobertura de testes                      | Quantitativa | Percentual de código coberto por testes automatizados                                                                                     |
-| Grau de acoplamento entre módulos        | Quantitativa | Análise estática do código (ex.: número de dependências entre módulos/classes/funções)                                                    |
-| Cobertura da documentação                | Quantitativa | Verificar a presença e completude de documentos essenciais (manuais, guias, etc.), comparando contra uma lista de documentos esperados    |
-| Complexidade ciclomática                 | Quantitativa | Cálculo da complexidade por meio de ferramentas como SonarQube                                                                            |
 | Taxa de sucesso em tarefas               | Quantitativa | Porcentagem de tarefas realizadas com sucesso sem necessidade de retrabalho                                                               |
+| Satisfação do usuário                    | Qualitativa  | Questionário com escala Likert (1 a 5), aplicado ao colega que realizou as tarefas                                                        |
 | Desempenho percebido (tempo de resposta) | Qualitativa  | Avaliação subjetiva do usuário sobre a velocidade do sistema, por meio de questionários ou entrevistas                                    |
+
 
 ## Guia do avaliador
 
