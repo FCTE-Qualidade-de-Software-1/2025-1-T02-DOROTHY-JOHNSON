@@ -32,6 +32,71 @@ mkdocs serve
 
 ---
 
+## Execução do Q-Rapids
+
+### Pré-requisitos
+
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+## Etapas de Configuração
+
+### 1. Configurar as variáveis de ambiente
+
+Copie o arquivo de exemplo `.env.qrapids` para o arquivo `.env`:
+
+```bash
+cp .env.qrapids .env
+```
+
+### 2. Iniciar os serviços principais
+
+Execute o comando abaixo para subir os serviços essenciais:
+
+```bash
+docker compose up -d sonarqube zookeeper kafka elasticsearch kibana db
+```
+
+### 3. Acessar o SonarQube
+
+- URL: http://localhost:4875
+- Usuário: admin
+- Senha: admin
+
+**Importante**: Após o primeiro login, altere a senha padrão.
+Atualize a nova senha nos arquivos `sonar-project.properties` do projeto AgroMart.
+
+### 4. Rodar os scanners
+
+Após configurar o SonarQube corretamente, execute:
+
+```bash
+docker compose up -d scanner-mobile scanner-api
+```
+
+### 5. Subir os serviços do Q-Rapids
+
+Execute:
+
+```bash
+docker compose up -d qrconnect_sonar pabrews dashboard rbase siassessment-rest forecast-rest
+```
+
+### 6. Subir o serviço de avaliação
+
+Depois de alguns instantes, rode:
+
+```bash
+docker compose up -d qreval
+```
+
+Acesse o dashboard no navegador: http://localhost:8080
+
+Os seguintes projetos devem estar disponíveis, com métricas e indicadores:
+- api-agromart
+- mobile-agromart
 
 ## Integrantes da Equipe
 
