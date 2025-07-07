@@ -30,10 +30,14 @@ theme:
 nav:
   - Home: index.md
   - Requisitos de Avalição: requisito_avaliacao/req.md
-  - GQM: 
+  - GQM:
     - Definição: gqm/definition.md
-  - Avalição:
+  - Plano de Avaliação:
     - Planejamento: avaliacao/plano.md
+  - Execução da Avaliação:
+    - Coleta de Dados:
+      - Manutenibilidade: execucao/coleta_dados/manutenibilidade.md
+      - Usabilidade: execucao/coleta_dados/usabilidade.md
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -41,3 +45,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - table-reader
