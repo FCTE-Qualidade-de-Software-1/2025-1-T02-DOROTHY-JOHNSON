@@ -29,15 +29,19 @@ theme:
 
 nav:
   - Home: index.md
-  - Requisitos de Avalição: requisito_avaliacao/req.md
-  - GQM:
+  - Fase 1:
+      - Requisitos de Avalição: requisito_avaliacao/req.md
+  - Fase 2: 
     - Definição: gqm/definition.md
-  - Plano de Avaliação:
-    - Planejamento: avaliacao/plano.md
-  - Execução da Avaliação:
+    - Criterios para julgamento: gqm/criterio_julgamento.md
+  - Fase 3:
+    - Plano de Avaliação: avaliacao/plano.md
+  - Fase 4:
     - Coleta de Dados:
       - Manutenibilidade: execucao/coleta_dados/manutenibilidade.md
       - Usabilidade: execucao/coleta_dados/usabilidade.md
+    - Comparar com Critérios: execucao/comparar.md
+    - Julgar os Resultados: execucao/julgar_cri.md
 
 markdown_extensions:
   - pymdownx.superfences:
