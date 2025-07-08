@@ -10,11 +10,13 @@ A densidade de comentários (Comment Lines Density) reflete o nível de explica�
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=159077419&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
+Como um todo, o AgroMart Mobile Client possui uma média densidade de linhas de comentários igual a **2,3%**.
+
 ## Cobertura de Testes
 
 A cobertura de testes indica a porcentagem de linhas de código exercitadas por testes automatizados, medida em **Coverage Overview → Overall Code** no SonarQube. Atualmente, não há testes automatizados implementados no AgroMart Mobile, resultando em cobertura de 0,0%.
 
-- Coverage: 0,0% (743 linhas-alvo)
+- Coverage: 0,0% (804 linhas-alvo)
 
 ## Duplicação de Código
 
@@ -23,10 +25,13 @@ A densidade de duplicação de código indica a porcentagem de linhas de código
 - Duplicação: 6,7% (linhas duplicadas sobre o total)
 
 ## Complexidade Ciclomática 
+
 A complexidade ciclomática quantifica o número de caminhos de execução possíveis em cada função, obtida em **Measures → Cyclomatic Complexity**. Maior complexidade exige mais cenários de teste e dificulta a manutenção.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
+A complexidade ciclomática do AgroMart Mobile é igual a 359.
+Divindo pelos 94 arquivos, obtemos umaa média da complexidade ciclomática por módulo igual a 3,81%.
 
 ## Tempo para Entender Módulo
 
