@@ -1,4 +1,4 @@
-# Coleta de dados de Usabilidade - AgroMart
+# Coleta de dados de efetividade, eficiência e satisfação - AgroMart
 
 ## Participante
 - Nome: Elaine
