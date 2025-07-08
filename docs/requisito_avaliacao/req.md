@@ -82,8 +82,7 @@ Os principais usuários são pequenos agricultores/produtores, usuários da inte
 
 ### 3.5. Principais componentes do produto que serão submetidos à avaliação
 
-A avaliação de usabilidade será focada exclusivamente na versão mobile do AgroMart. Já a avaliação de manutenibilidade abrangerá tanto o aplicativo móvel quanto a API, considerando que a manutenção envolve não apenas o código do app, mas também a infraestrutura e a integração fornecidas pela API, componentes essenciais para o funcionamento completo do sistema.
-
+A avaliação focará no aplicativo móvel do AgroMart (Mobile Client).
 ### 3.6. Requisitos de hardware e software para executar o produto de software
 
 Requisitos para desenvolvimento local (Web e API):
