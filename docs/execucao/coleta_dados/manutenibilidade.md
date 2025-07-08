@@ -10,7 +10,7 @@ A densidade de comentários (Comment Lines Density) reflete o nível de explica�
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=159077419&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
-Como um todo, o AgroMart Mobile Client possui uma média densidade de linhas de comentários igual a **2,3%**.
+Como um todo, o AgroMart Mobile Client possui uma densidade de linhas de comentários igual a **2,3%**.
 
 ## Cobertura de Testes
 
@@ -30,8 +30,7 @@ A complexidade ciclomática quantifica o número de caminhos de execução poss�
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
-A complexidade ciclomática do AgroMart Mobile é igual a 359.
-Divindo pelos 94 arquivos, obtemos umaa média da complexidade ciclomática por módulo igual a 3,81%.
+A complexidade ciclomática do AgroMart Mobile é igual a 359. Divindo pelos 94 arquivos, obtemos uma média da complexidade ciclomática por módulo igual a 3,82.
 
 ## Tempo para Entender Módulo
 
