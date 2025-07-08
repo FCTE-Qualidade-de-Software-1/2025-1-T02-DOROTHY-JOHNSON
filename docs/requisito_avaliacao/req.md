@@ -10,8 +10,12 @@ O AgroMart é um software desenvolvido na UnB-FCTE (Universidade de Brasília - 
 
 A avaliação será feita com base nos modelos de qualidade de produto e de qualidade em uso definidos pela ISO/IEC 25010, que trazem características importantes para medir como um software atende às necessidades dos usuários e às exigências técnicas.
 
+Modelo de Qualidade do Produto
+
 - **Manutenibilidade**: Facilidade e efetividade de custo para modificar, atualizar, consertar ou aperfeiçoar o software após sua entrega.  
   **Ênfase:** 5
+
+Modelo de Qualidade em uso
 
 - **Efetividade**: Capacidade do sistema de permitir que os usuários atinjam objetivos específicos com precisão e completude.  
   **Ênfase**: 2
