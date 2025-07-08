@@ -2,39 +2,38 @@
 
 ## Objetivo da avaliação
 
-Avaliar o software AgroMart com base nas características de qualidade usando o método PSM-CID, quanto à **usabilidade** e à **manutenibilidade**.
+Avaliar o software AgroMart com base nas características de qualidade usando o método PSM-CID, quanto à **efetividade, eficiência e satisfação** e à **manutenibilidade**.
 
 ## Método de avaliação (PSM-CID)
 
 - Características avaliadas:
 
-| Característica       | Subcaracterística                                                             | Objetivo no AgroMart                                                                |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Manutenibilidade** | Modularidade, Reusabilidade, Analisabilidade, Modificabilidade, Testabilidade | Avaliar a facilidade de localizar erros e fazer modificações no código ou interface |
-| **Usabilidade**      | Operacionalidade, Aprendizado, Estética, Acessibilidade                       | Garantir que o sistema seja intuitivo, claro e fácil de usar                        |
+| Característica       | Subcaracterística                                                             | Objetivo no AgroMart                                                                                         |
+| -------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Manutenibilidade** | Modularidade, Reusabilidade, Analisabilidade, Modificabilidade, Testabilidade | Avaliar a facilidade de localizar erros e fazer modificações no código ou interface                          |
+| **Efetividade**      | Efetividade                                                                   | Assegurar que o sistema permita aos usuários completar suas tarefas corretamente e integralmente             |
+| **Eficiência**       | Eficiência                                                                    | Garantir que o sistema utilize os recursos de forma otimizada para atingir os objetivos com o mínimo esforço |
+| **Satisfação**       | Utilidade, Conforto, Prazer, Confiança                                                                    | Avaliar a percepção positiva dos usuários quanto à experiência geral com o sistema                           |
 
 - Métricas definidas (Manutenibilidade):
 
-| Métrica                      | Como medir                                                                                                                                         |
-|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Grau de acoplamento         | Análise estática do código (ex.: número de dependências entre módulos/classes/funções)                                                             |
-| Cobertura da documentação   | Verificar presença e completude de documentos essenciais (manuais, guias, etc.), comparando com uma lista de documentos esperados                 |
-| Atualização da documentação | Verificar se os documentos foram atualizados recentemente e se refletem a versão atual do código                                                  |
-| Cobertura de testes         | Percentual de código coberto por testes automatizados                                                                                              |
-| Complexidade ciclomática    | Cálculo da complexidade por meio de ferramentas como SonarQube                                                                                     |
-| Duplicação de Código        | Percentual ou número de blocos de código duplicados, identificado por ferramentas de análise estática como o SonarQube                            |
-| Esforço para entender módulo (Complexidade Cognitiva) | Medida do esforço mental necessário para compreender o código, considerando profundidade de aninhamento e desvios de fluxo. Usar ferramentas como SonarQube |
+| Código | Métrica                    | Como medir                                                                                            |
+| ------ | -------------------------- | ----------------------------------------------------------------------------------------------------- |
+| M1     | Grau de acoplamento        | Análise estática do código usando ferramentas como Dependency Cruiser para medir AC, EC e Instability |
+| M2     | Cobertura da documentação  | Densidade de comentários (Comment Lines Density) medida com SonarQube                                 |
+| M3     | Duplicação de código       | Percentual de código duplicado detectado por ferramentas como SonarQube                               |
+| M4     | Cobertura de testes        | Percentual de código coberto por testes automatizados, medido com Jest                                |
+| M5     | Complexidade ciclomática   | Cálculo da complexidade ciclomática por função com SonarQube                                          |
+| M6     | Tempo para entender módulo | Derivado da complexidade cognitiva calculada pelo SonarQube, representando esforço mental necessário  |
 
-- Métricas definidas (Usabilidade/Eficiência de Uso):
+- Métricas definidas (efetividade, eficiência e satisfação):
 
-| Métrica                                  | Tipo         | Como medir                                                                                                                                |
-| ---------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Tempo médio para completar tarefa        | Quantitativa | Cronometrar quanto tempo um colega demora para realizar tarefas comuns                                                                    |
-| Número de erros por tarefa               | Quantitativa | Quantidade de tentativas incorretas ou falhas                                                                                             |
-| Taxa de sucesso em tarefas               | Quantitativa | Porcentagem de tarefas realizadas com sucesso sem necessidade de retrabalho                                                               |
-| Satisfação do usuário                    | Qualitativa  | Questionário com escala Likert (1 a 5), aplicado ao colega que realizou as tarefas                                                        |
-| Desempenho percebido (tempo de resposta) | Qualitativa  | Avaliação subjetiva do usuário sobre a velocidade do sistema, por meio de questionários ou entrevistas                                    |
-
+| Código | Métrica                     | Tipo         | Como medir                                                                                     |
+| ------ | --------------------------- | ------------ | ---------------------------------------------------------------------------------------------- |
+| M7     | Taxa de sucesso nas tarefas | Quantitativa | Porcentagem de tarefas realizadas com sucesso sem necessidade de retrabalho                    |
+| M8     | Tempo de execução da tarefa | Quantitativa | Cronometrar o tempo médio que um usuário leva para realizar tarefas comuns                     |
+| M9     | Satisfação média            | Qualitativa  | Questionário com escala Likert (1 a 5) aplicado aos usuários após execução das tarefas         |
+| M10    | Tempo de resposta percebido | Qualitativa  | Avaliação subjetiva do usuário sobre a velocidade do sistema, com questionários ou entrevistas |
 
 ## Guia do avaliador
 
@@ -71,7 +70,7 @@ Avaliar o software AgroMart com base nas características de qualidade usando o 
 
 ### Divisão de Subgrupos
 
-Para otimizar a execução da avaliação e considerando as ênfases estabelecidas (manutenibilidade: 5, usabilidade: 3), a equipe foi dividida em dois subgrupos de trabalho, atuando de forma paralela e coordenada.
+Para otimizar a execução da avaliação e considerando as ênfases estabelecidas (manutenibilidade: 5, efetividade, eficiência e satisfação: 2), a equipe foi dividida em dois subgrupos de trabalho, atuando de forma paralela e coordenada.
 
 ---
 
@@ -90,16 +89,16 @@ Para otimizar a execução da avaliação e considerando as ênfases estabelecid
 
 ---
 
-#### Subgrupo Usabilidade (2 pessoas)
+#### Subgrupo de Efetividade, Eficiência e Satisfação (2 pessoas)
 
 **Integrantes**: Daniel Santos, Philipe Barros
 
-**Foco**: Ênfase na avaliação dos aspectos de usabilidade do software.
+**Foco**: Ênfase na avaliação dos aspectos de qualidade em uso do software relacionados à efetividade, eficiência e satisfação.
 
 **Responsabilidades**:
 
-- Planejar e executar a coleta de dados de usabilidade, empregando métodos como testes de usuário, questionários ou avaliações heurísticas.
-- Analisar os dados coletados e compará-los com os critérios de usabilidade previamente definidos.
+- Planejar e executar a coleta de dados de efetividade, eficiência e satisfação, empregando métodos como testes de usuário, questionários ou avaliações heurísticas.
+- Analisar os dados coletados e compará-los com os critérios previamente definidos.
 - Propor melhorias na interface ou nos fluxos de interação do AgroMart.
 - Documentar todas as descobertas, análises e propostas de melhoria.
 
@@ -123,14 +122,14 @@ A seguir, são listadas as ferramentas e recursos que podem ser utilizados duran
 
 O cronograma a seguir apresenta a distribuição das atividades do grupo. Cada atividade possui responsáveis e prazos definidos.
 
-| **Categoria**                    | **Atividade Principal**                          | **Período**               | **Responsáveis**                         |
-| -------------------------------- | ------------------------------------------------ | ------------------------- | ---------------------------------------- |
-| **Gestão de Projeto**            | Gerenciamento contínuo                           | 30 de junho a 07 de julho | Grupo completo                           |
-| **Preparação**                   | Elaboração do Plano de Avaliação                 | 01 a 02 de julho          | Grupo completo                           |
-| **Execução da Avaliação**        | Coleta de dados (manutenibilidade e usabilidade) | 03 a 04 de julho          | Subgrupos Manutenibilidade e Usabilidade |
-|                                  | Análise e comparação                             | 05 de julho               | Subgrupos Manutenibilidade e Usabilidade |
-|                                  | Execução de ações de melhoria                    | 06 a 07 de julho          | Grupo completo                           |
-| **Documentação e Revisão Final** | Revisão geral e entrega                          | 07 a 08 de julho          | Grupo completo                           |
+| **Categoria**                    | **Atividade Principal**          | **Período**               | **Responsáveis** |
+| -------------------------------- | -------------------------------- | ------------------------- | ---------------- |
+| **Gestão de Projeto**            | Gerenciamento contínuo           | 30 de junho a 07 de julho | Grupo completo   |
+| **Preparação**                   | Elaboração do Plano de Avaliação | 01 a 02 de julho          | Grupo completo   |
+| **Execução da Avaliação**        | Coleta de dados                  | 03 a 04 de julho          | Subgrupos        |
+|                                  | Análise e comparação             | 05 de julho               | Subgrupos        |
+|                                  | Execução de ações de melhoria    | 06 a 07 de julho          | Grupo completo   |
+| **Documentação e Revisão Final** | Revisão geral e entrega          | 07 a 08 de julho          | Grupo completo   |
 
 O gráfico Gantt abaixo oferece uma visualização clara da sequência e duração das atividades previstas:
 

@@ -108,7 +108,23 @@ Hardware mínimo recomendado:
 
 ---
 
-## 4. ODS - Objetivos de Desenvolvimento Sustentável
+## 4. Especificar o modelo de qualidade
+
+Para a avaliação do AgroMart, foram adotados os modelos de qualidade de produto e qualidade em uso, conforme definidos pela norma ISO/IEC 25010 (SQuaRE). Esses modelos fornecem uma estrutura abrangente para avaliar as características do sistema, tanto do ponto de vista do produto em si quanto da experiência do usuário durante seu uso.
+
+![Modelo de Qualide de Produto](../assets/modelo-qualidade-do-produto.png)
+/// caption
+Figura 1: Modelo de Qualidade de Produto (SQuaRE)
+///
+
+![Modelo de Qualide em Uso](../assets/modelo-qualidade-em-uso.png)
+/// caption
+Figura 2: Modelo de Qualidade em Uso (SQuaRE)
+///
+
+---
+
+## 5. ODS - Objetivos de Desenvolvimento Sustentável
 
 O **AgroMart** alinha-se a diversos ODS da Agenda 2030 da ONU:
 

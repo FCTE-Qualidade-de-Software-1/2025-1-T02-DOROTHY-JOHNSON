@@ -8,13 +8,13 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ## Objetivo de Medição 1
 
-| Elemento                 | Descrição                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------ |
-| **Analisar**             | AgroMart                                                                             |
-| **Para o propósito de**  | avaliar a sua capacidade de ser compreendido, adaptado e evoluído de forma eficiente |
-| **Com respeito a**       | manutenibilidade                                                                     |
-| **Do ponto de vista do** | desenvolvedor                                                                        |
-| **No contexto da**       | disciplina de Qualidade de Software                                                  |
+| Elemento                 | Descrição                           |
+| ------------------------ | ----------------------------------- |
+| **Analisar**             | AgroMart                            |
+| **Para o propósito de**  | avaliar                             |
+| **Com respeito a**       | manutenibilidade                    |
+| **Do ponto de vista do** | desenvolvedor                       |
+| **No contexto da**       | disciplina de Qualidade de Software |
 
 ### Questões e Hipóteses
 
@@ -37,12 +37,12 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
       <strong>Foco da Qualidade</strong>
       <ul style="margin-top: 5px;">
-        <li>Cobertura de testes</li>
         <li>Grau de acoplamento entre módulos</li>
         <li>Cobertura da documentação</li>
+        <li>Cobertura de testes</li>
+        <li>Duplicação de código</li>
         <li>Complexidade ciclomática</li>
-        <li>Esforço para entender módulo</li>
-        <li>Densidade de duplicação de código</li>
+        <li>Tempo para entender módulo</li>
       </ul>
     </td>
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -67,10 +67,10 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
             <li>I (Instability) entre 0,2 e 0,6, garantindo equilíbrio entre estabilidade e flexibilidade</li>
           </ul>
         </li>
-        <li>Documentação cobre aspectos principais (como instalação e uso)</li>
+        <li>Cobertura da Documentação - Densidade de comentários entre 15% e 25%, indicando documentação suficiente para orientar novos desenvolvedores</li>
         <li>Complexidade ciclomática média em nível aceitável (5–10 por função)</li>
-        <li>Complexidade cognitiva abaixo de 15 por módulo</li>
-        <li>Densidade de duplicação abaixo de 5%</li>
+        <li>Tempo médio para entender módulo: entre 5 e 10 minutos</li>
+        <li>Duplicação de código abaixo de 5%</li>
       </ul>
     </td>
     <td style="padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -94,25 +94,23 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 ###### M2: Cobertura da documentação
 
-###### M3: Atualização da documentação
+###### M3: Duplicação de Código
 
 ###### M4: Cobertura de testes
 
 ###### M5: Complexidade ciclomática
 
-###### M6: Duplicação de Código
-
-###### M7: Esforço para entender módulo
+###### M6: Tempo para entender módulo
 
 ## Objetivo de Medição 2
 
-| Elemento                 | Descrição                                              |
-| ------------------------ | ------------------------------------------------------ |
-| **Analisar**             | AgroMart                                               |
-| **Para o propósito de**  | entender sua eficácia e facilidade de uso              |
-| **Com respeito a**       | eficiência de uso (usabilidade e desempenho percebido) |
-| **Do ponto de vista de** | usuário final                                          |
-| **No contexto da**       | disciplina de Qualidade de Software                    |
+| Elemento                 | Descrição                                       |
+| ------------------------ | ----------------------------------------------- |
+| **Analisar**             | AgroMart                                        |
+| **Para o propósito de**  | entender                                        |
+| **Com respeito a**       | efetividade, eficiência e satisfação do usuário |
+| **Do ponto de vista de** | usuário final                                   |
+| **No contexto da**       | disciplina de Qualidade de Software             |
 
 ### Questões e Hipóteses
 
@@ -170,17 +168,13 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
 
 #### Métricas para Objetivo 2
 
-###### M8: Taxa de sucesso nas tarefas
+###### M7: Taxa de sucesso nas tarefas
 
-###### M9: Cliques até compra
+###### M8: Tempo de execução da tarefa
 
-###### M10: Tempo médio de compra
+###### M9: Satisfação média
 
-###### M11: Satisfação média
-
-###### M12: Tempo de resposta percebido
-
-###### M13: Taxa de desistência
+###### M10: Tempo de resposta percebido
 
 ## Tabela de Contribuição
 
@@ -205,9 +199,6 @@ O Agromart tem como propósito oferecer aos pequenos agricultores mais seguranç
     </li>
     <li><strong>Tempo para detectar falhas</strong><br>
       Depende de logs históricos de bugs ou dados operacionais de produção, que não estão disponíveis para a equipe avaliadora.
-    </li>
-    <li><strong>Comentários por função</strong><br>
-      A presença de comentários nem sempre reflete qualidade ou clareza, podendo inclusive mascarar código mal estruturado. Além disso, é de baixa confiabilidade como métrica isolada.
     </li>
     <li><strong>Padrões arquiteturais</strong><br>
       A avaliação de padrões arquiteturais exige análise qualitativa e conhecimento profundo do sistema e suas decisões de design, o que foge ao escopo da análise automatizada e objetiva.
