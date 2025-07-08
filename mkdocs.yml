@@ -33,7 +33,8 @@ nav:
       - Requisitos de Avalição: requisito_avaliacao/req.md
   - Fase 2: 
     - Definição: gqm/definition.md
-    - Criterios para julgamento: gqm/criterio_julgamento.md
+    - Níveis de pontuação das métricas: gqm/niveis_pontuacao.md
+    - Critérios para julgamento: gqm/criterio_julgamento.md
   - Fase 3:
     - Plano de Avaliação: avaliacao/plano.md
   - Fase 4:
