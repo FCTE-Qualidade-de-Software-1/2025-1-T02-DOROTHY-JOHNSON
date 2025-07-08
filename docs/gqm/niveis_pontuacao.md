@@ -33,6 +33,16 @@ Os níveis de pontuação para cada métrica estão definidos conforme as tabela
 | M9     | Satisfação média            | Escala 1 a 5         | Excelente: ≥ 4 <br> Bom: 3.5 - 3.99 <br> Aceitável: 3 - 3.49 <br> Ruim: < 3                        |
 | M10    | Tempo de resposta percebido | Segundos             | Excelente: < 1 s <br> Bom: 1 - 2 s <br> Aceitável: 3 - 4 s <br> Ruim: > 4 s                        |
 
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
 ## Histórico de Versão
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |
