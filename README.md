@@ -34,12 +34,20 @@ mkdocs serve
 
 ## Execução do Q-Rapids
 
+Q-Rapids é uma plataforma de apoio à decisão que ajuda equipes de desenvolvimento a monitorar e melhorar a qualidade do software de forma contínua, integrando métricas técnicas e informações do processo de desenvolvimento.
+
 ### Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
+
+A pasta /qrapids/ e o arquivo `docker-compose.yml` deste repositório foram baseados no repositório oficial do projeto:
+
+🔗 https://github.com/q-rapids/qrapids-docker
+
+Esses arquivos foram adaptados exclusivamente para fins acadêmicos e para avaliação do AgroMart no contexto da disciplina de Qualidade de Software. Todos os direitos sobre o Q-Rapids permanecem com os autores originais.
 
 ## Etapas de Configuração
 
