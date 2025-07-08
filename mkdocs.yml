@@ -43,6 +43,7 @@ nav:
       - Usabilidade: execucao/coleta_dados/usabilidade.md
     - Comparar com Critérios: execucao/comparar.md
     - Julgar os Resultados: execucao/julgar_cri.md
+    - Q-Rapids: execucao/qrapids.md
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -50,6 +51,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.blocks.caption
   - pymdownx.arithmatex:
       generic: true
 

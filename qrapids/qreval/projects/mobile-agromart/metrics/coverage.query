@@ -1,0 +1,19 @@
+{
+  "size": 1,
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "bcKey": "{{bcKey}}" } },
+        { "term": { "snapshotDate": "{{lastSnapshotDate}}" } },
+        { "term": { "metric": "coverage" } }
+      ]
+    }
+  },
+  "aggs": {
+    "average_coverage": {
+      "avg": {
+        "field": "floatvalue"
+      }
+    }
+  }
+}
