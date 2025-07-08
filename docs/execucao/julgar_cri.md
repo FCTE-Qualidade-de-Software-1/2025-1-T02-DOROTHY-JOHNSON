@@ -47,4 +47,4 @@ A seguir apresentamos uma análise crítica das métricas que compõem a avalia�
 | Versão | Data       | Autor                                              | Descrição                                | Revisor                                            |
 | ------ | ---------- | -------------------------------------------------- | ---------------------------------------- | -------------------------------------------------- |
 | 1.0    | 07/07/2025 | [Philipe Sousa](https://github.com/PhilipeSousa)         | Criação do documento                     | [Daniel Coimbra](https://github.com/DanielCoimbra) |
-| 1.1    | 08/07/2025 | [Gabriel Bertolazi](https://github.com/Bertolazi         | Conteúdo adicionado                     |           |
+| 1.1    | 08/07/2025 | [Gabriel Bertolazi](https://github.com/Bertolazi)         | Conteúdo adicionado (manutenibilidade)                     |           |
