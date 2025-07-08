@@ -1,5 +1,5 @@
 {
-  "size": 1,
+  "size": 0,
   "query": {
     "bool": {
       "must": [
@@ -7,6 +7,13 @@
         { "term": { "snapshotDate": "{{lastSnapshotDate}}" } },
         { "term": { "metric": "coverage" } }
       ]
+    }
+  },
+  "aggs": {
+    "average_coverage": {
+      "avg": {
+        "field": "floatvalue"
+      }
     }
   }
 }

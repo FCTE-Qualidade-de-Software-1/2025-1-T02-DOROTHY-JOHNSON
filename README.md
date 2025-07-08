@@ -70,6 +70,70 @@ Atualize a nova senha nos arquivos `sonar-project.properties` do projeto AgroMar
 
 ### 4. Rodar os scanners
 
+#### 4.1. Clonar o Projeto AgroMart
+
+Clone os repositórios do AgroMart, contendo os códigos da API e do cliente mobile, conforme uma das opções abaixo:
+
+- Coloque os projetos clonados dentro da estrutura do Q-Rapids conforme os caminhos abaixo:
+
+```
+qrapids/
+├── docker-compose.yml
+├── api/
+├── mobile-client/
+```
+
+O Docker Compose já está configurado para buscar nesses diretórios como padrão (./api e ./mobile-client).
+
+- Se desejar manter os projetos em outros locais, configure os caminhos manualmente criando um arquivo .env com as variáveis:
+
+```bash
+API_SRC=/caminho/absoluto/para/o/codigo/api
+MOBILE_SRC=/caminho/absoluto/para/o/codigo/mobile
+```
+
+#### 4.2. Criar o arquivo `sonar-project.properties`
+
+Crie este arquivo na raiz de cada projeto (API e Mobile) com o conteúdo a seguir:
+
+mobile-client/sonar-project.properties
+
+```properties
+sonar.projectKey=mobile-agromart
+sonar.projectName=Agromart Mobile Client
+sonar.projectVersion=1.0
+
+sonar.sources=src
+sonar.sourceEncoding=UTF-8
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+sonar.exclusions=**/node_modules/**
+sonar.typescript.tsconfigPath=tsconfig.json
+
+sonar.host.url=http://sonarqube:9000
+sonar.login=admin
+sonar.password=password
+```
+
+api/sonar-project.properties
+
+```properties
+sonar.projectKey=api-agromart
+sonar.projectName=Agromart API
+sonar.projectVersion=1.0
+
+sonar.sources=src
+sonar.language=js
+sonar.sourceEncoding=UTF-8
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+sonar.exclusions=**/node_modules/**
+
+sonar.host.url=http://sonarqube:9000
+sonar.login=admin
+sonar.password=password
+```
+
+#### 4.3. Executar o scanner
+
 Após configurar o SonarQube corretamente, execute:
 
 ```bash
@@ -94,9 +158,7 @@ docker compose up -d qreval
 
 Acesse o dashboard no navegador: http://localhost:8080
 
-Os seguintes projetos devem estar disponíveis, com métricas e indicadores:
-- api-agromart
-- mobile-agromart
+Os projetos devem estar disponíveis no dashboard do Q-Rapids, com métricas e indicadores estratégicos.
 
 ## Integrantes da Equipe
 

@@ -220,7 +220,7 @@ services:
     depends_on:
       - sonarqube
     volumes:
-      - ./agromart/api:/usr/src
+      - ${API_SRC:-./qrapids/api}:/usr/src
     working_dir: /usr/src
     command: >
       -Dsonar.host.url=http://sonarqube:9000
@@ -232,7 +232,7 @@ services:
     depends_on:
       - sonarqube
     volumes:
-      - ./agromart/mobile-client:/usr/src
+      - ${MOBILE_SRC:-./qrapids/mobile-client}:/usr/src
     working_dir: /usr/src
     command: >
       -Dsonar.host.url=http://sonarqube:9000

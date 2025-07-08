@@ -8,5 +8,12 @@
         { "term": { "metric": "coverage" } }
       ]
     }
+  },
+  "aggs": {
+    "average_coverage": {
+      "avg": {
+        "field": "floatvalue"
+      }
+    }
   }
 }
