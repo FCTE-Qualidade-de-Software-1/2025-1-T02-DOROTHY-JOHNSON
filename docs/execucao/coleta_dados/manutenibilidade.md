@@ -3,7 +3,10 @@
 Este relatório compila as principais métricas de mantenabilidade do projeto **AgroMart Mobile**, apresentando dados sobre acoplamento, documentação, testes e complexidade. O objetivo é fornecer uma visão abrangente da facilidade de manutenção do código ao longo do tempo e    identificar áreas de melhoria.
 
 ## Cobertura da Documentação 
-A densidade de comentários (Comment Lines Density) mostra a proporção de linhas de código documentadas, refletindo o nível de detalhamento e orientação para novos desenvolvedores.
+A densidade de comentários (Comment Lines Density) reflete o nível de explicação interna do código, auxiliando novos desenvolvedores a compreender funcionalidades sem necessidade de leitura completa do código-fonte.
+
+- **Comment Lines (%):** proporção de linhas de comentário em relação ao total de linhas de código.
+- **Linhas de Comentário:** número absoluto de linhas contendo comentários.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=159077419&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
@@ -20,7 +23,7 @@ A densidade de duplicação de código indica a porcentagem de linhas de código
 - Duplicação: 6,7% (linhas duplicadas sobre o total)
 
 ## Complexidade Ciclomática 
-A complexidade ciclomática quantifica o número de caminhos de execução possíveis em cada função, obtida em **Measures → Cyclomatic Complexity**. Valores elevados podem aumentar o esforço de teste e a probabilidade de erros.
+A complexidade ciclomática quantifica o número de caminhos de execução possíveis em cada função, obtida em **Measures → Cyclomatic Complexity**. Maior complexidade exige mais cenários de teste e dificulta a manutenção.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNxb8XTYT0tBarvdkgRM-JmTcfH8NtNll_mk8R1UiqRuei8gKxO2oTdkQT8kwrtbX78xkXDrAmuPyh/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400"></iframe>
 
@@ -88,7 +91,9 @@ O grau de acoplamento indica o nível de dependências internas e externas de ca
 
 ## Histórico de Versão
 
-| Versão | Data       | Autor                                                         | Descrição                                         | Revisor       |
-| ------ | ---------- | ------------------------------------------------------------- | ------------------------------------------------- | ------------- |
-| 1.0    | 05/07/2025 | [Cássio Reis](https://github.com/csreis72)                    | Criação do documento                              | -             |
-| 1.1    | 07/07/2025 | [Letícia K. Ramos Paiva](https://github.com/leticiakrpaiva)   | Adição das Métricas Coletadas | Cássio Reis   |
+| Versão | Data       | Autor                                                       | Descrição                              | Revisor |
+| ------ | ---------- | ----------------------------------------------------------- | -------------------------------------- | ------- |
+| 1.0    | 05/07/2025 | [Cássio Reis](https://github.com/csreis72)                  | Criação do documento                   | –       |
+| 1.1    | 07/07/2025 | [Letícia K. Ramos Paiva](https://github.com/leticiakrpaiva) | Adição das Métricas Coletadas          | Cássio Reis |
+| 1.2    | 08/07/2025 | [Letícia K. Ramos Paiva](https://github.com/leticiakrpaiva) | Revisão e melhoria das explicações     | –       |
+
