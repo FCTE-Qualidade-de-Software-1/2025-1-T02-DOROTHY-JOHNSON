@@ -32,9 +32,9 @@ O gráfico abaixo mostra, para cada valor de tempo de ciclo (eixo X), duas infor
 | Fase 3 - Plano de Avaliação     | 30/06/25 | 02/07/25  | 3                     |
 | Fase 4 - Coleta de Dados        | 03/07/25 | 06/07/25  | 4                     |
 | Fase 4 - Configuração Q-Rapids  | 03/07/25 | 05/07/25  | 3                     |
-| Fase 4 - Comparar com critérios | 08/08/25 | 08/08/25  | 1                     |
-| Fase 4 - Julgar resultados      | 08/08/25 | 08/08/25  | 1                     |
-| Fase 4 - Ação de melhoria       | 08/08/25 | 08/08/25  | 1                     |
+| Fase 4 - Comparar com critérios | 08/07/25 | 08/07/25  | 1                     |
+| Fase 4 - Julgar resultados      | 08/07/25 | 08/07/25  | 1                     |
+| Fase 4 - Ação de melhoria       | 08/07/25 | 08/07/25  | 1                     |
 
 ## Histórico de Versão
 
