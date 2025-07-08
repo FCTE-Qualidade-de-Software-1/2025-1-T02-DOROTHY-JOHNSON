@@ -85,3 +85,4 @@ O **AgroMart** alinha-se a diversos ODS da Agenda 2030 da ONU:
 | ------ | ---------- | ------------------------------------------------ | ----------------------------------------------------------------------- | ----------- |
 | 1.0    | 26/05/2025 | [Philipe Sousa](https://github.com/PhilipeSousa) | Criação do documento                                                    | Cássio Reis |
 | 1.1    | 28/05/2025 | [Cássio Reis](https://github.com/csreis72)       | Adição de informações sobre o software e modelo de qualidade escolhidos | -           |
+
