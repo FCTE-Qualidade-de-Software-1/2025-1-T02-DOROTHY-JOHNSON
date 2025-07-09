@@ -46,6 +46,7 @@ nav:
     - Ações de Melhoria: execucao/acoes_melhoria.md
     - Q-Rapids: execucao/qrapids.md
   - Gestão de Projeto:
+    - Metodologia: gestao/metodologia.md
     - Desempenho de Processos: gestao/desempenho.md
     - Calendário e Progresso: gestao/calendario.md
     - Recursos e Custos: gestao/recursos.md
