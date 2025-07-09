@@ -57,12 +57,12 @@ A seguir apresentamos uma análise crítica das métricas que compõem a avalia�
 
 ## Tabela de Julgamento
 
-| Código  | Métrica                     | Resultado no Projeto (Dorothy Johnson)                | Comentário Comparativo                                                                                                                |
-| ------- | --------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **M7**  | Taxa de sucesso nas tarefas | 100 % (1 de 1 tarefa completada)                      | **Excelente:** supera folgadamente o mínimo de 80 %, indicando que os usuários conseguiram concluir a tarefa sem erros.               |
-| **M8**  | Tempo de execução da tarefa | 40 s (≈ 0,67 min)                                     | **Excelente:** bem abaixo do limite de 2 min; a interface demonstrou-se rápida e eficiente no fluxo de atualização de dados.          |
-| **M9**  | Satisfação média            | 4,5 (escala 1–5)                                      | **Excelente:** acima do limiar (≥ 4), mostra alta aceitação e conforto dos usuários ao realizar a tarefa.                             |
-| **M10** | Tempo de resposta percebido | Não registrado numericamente, sem relatos de lentidão | **Excelente (presumido):** não houve observações de demora; a interface aparenta responder em < 1 s, garantindo fluidez na interação. |
+| Métrica | Nome                           | Valor Observado                                | Interpretação Técnica                                                                                   | Avaliação    |
+| ------- | ------------------------------ | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
+| **M7**  | Taxa de sucesso nas tarefas    | 100 % (1 de 1 tarefa completada)                | Usuária concluiu sem erros, indicando fluxo de navegação claro e funcional.                              | Excelente    |
+| **M8**  | Tempo de execução da tarefa    | 40 s (≈ 0,67 min)                               | Bem abaixo do limite de 2 min estabelecido; operação rápida e eficiente.                                 | Excelente    |
+| **M9**  | Satisfação média               | 4,5 (escala 1–5)                                | Nota alta mostra conforto e aceitação do usuário; resultado pode estar superestimado pela amostra única. | Boa          |
+| **M10** | Tempo de resposta percebido    | Instantâneo (< 1 s, sem relatos de lentidão)    | Subjetivamente rápido; confirma fluidez na interface, mas carece de medição objetiva de latência.      | Regular      |
 
 ---
 
