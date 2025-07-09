@@ -15,12 +15,12 @@ A tabela a seguir lista as principais tarefas da avaliação do AgroMart, com as
 
 | Tarefa                         | Término Real   | Término Planejado |
 |------------------------------- |----------------|--------------------|
-| Elaboração do Plano de Avaliação | 2025-07-02     | 2025-07-01       |
-| Configuração Q-Rapids         | 2025-07-05     | 2025-07-04          |
-| Coleta de Dados               | 2025-07-06     | 2025-07-05          |
-| Comparar com critérios        | 2025-08-08     | 2025-07-06          |
-| Julgar resultados             | 2025-08-08     | 2025-07-06          |
-| Ação de melhoria              | 2025-08-08     | 2025-07-07          |
+| Elaboração do Plano de Avaliação | 02/07/2025     | 01/07/2025       |
+| Configuração Q-Rapids         | 05/07/2025     | 04/07/2025          |
+| Coleta de Dados               | 06/07/2025     | 05/07/2025          |
+| Comparar com critérios        | 08/07/2025     | 06/07/2025          |
+| Julgar resultados             | 08/07/2025     | 06/07/2025          |
+| Ação de melhoria              | 08/07/2025     | 07/07/2025          |
 
 ## Histórico de Versão
 
