@@ -86,6 +86,16 @@ A seguir apresentamos uma análise crítica das métricas que compõem a avalia�
 
 ---
 
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
 ## Histórico de Versão
 
 | Versão | Data       | Autor                                                            | Descrição                                    | Revisor                                            |

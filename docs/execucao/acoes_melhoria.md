@@ -64,6 +64,16 @@ Portanto, recomenda-se extrair a interface para um único arquivo compartilhado 
 Essa modificação reduziu a densidade de duplicação para 5,3% (-1,4%), conforme verificado em nova análise realizada no SonarQube. 
 Acesse o commit da implementação [neste link](https://github.com/csreis72/mobile-client/commit/4d9f28298c97e29540279ce6df7b444643a13719).
 
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
 ## Histórico de Versão
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |

@@ -36,6 +36,16 @@ O gráfico abaixo mostra, para cada valor de tempo de ciclo (eixo X), duas infor
 | Fase 4 - Julgar resultados      | 08/07/25 | 08/07/25  | 1                     |
 | Fase 4 - Ação de melhoria       | 08/07/25 | 08/07/25  | 1                     |
 
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
 ## Histórico de Versão
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |

@@ -21,7 +21,17 @@ O grupo aplicou corretamente as métricas M7 a M10 por meio da interação de um
 | **M9**  | Satisfação média            | 4,5 (escala 1–5)                                      | **Excelente:** acima do limiar (≥ 4), mostra alta aceitação e conforto dos usuários ao realizar a tarefa.                             |
 | **M10** | Tempo de resposta percebido | Não registrado numericamente, sem relatos de lentidão | **Excelente (presumido):** não houve observações de demora |
 
-  
+
+## Tabela de Contribuição
+
+| Matrícula | Nome completo              | Contribuição (%) |
+| --------- | -------------------------- | ---------------- |
+| 221021886 | Cássio Sousa dos Reis      | 20%              |
+| 180113097 | Daniel Coimbra dos Santos  | 20%              |
+| 202023663 | Gabriel Basto Bertolazi    | 20%              |
+| 221037803 | Letícia Kellen Ramos Paiva | 20%              |
+| 170154319 | Philipe de Sousa Barros    | 20%              |
+
 ## Histórico de Versão
 
 | Versão | Data       | Autor                                              | Descrição                                | Revisor                                            |

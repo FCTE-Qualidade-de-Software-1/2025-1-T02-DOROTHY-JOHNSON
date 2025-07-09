@@ -50,6 +50,7 @@ nav:
     - Desempenho de Processos: gestao/desempenho.md
     - Calendário e Progresso: gestao/calendario.md
     - Recursos e Custos: gestao/recursos.md
+  - Entregas: entregas/entregas.md
 
 markdown_extensions:
   - pymdownx.superfences:
